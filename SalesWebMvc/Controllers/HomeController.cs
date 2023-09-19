@@ -15,7 +15,8 @@ namespace SalesWebMvc.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Salles Web MVC App from C# Course.";
+            ViewData["Boss"] = "Jardel Boss";
 
             return View();
         }
